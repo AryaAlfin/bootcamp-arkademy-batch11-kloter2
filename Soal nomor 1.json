@@ -1,0 +1,29 @@
+{
+  "Biodata" :{
+    "Name" : "Aya Noor Alfin Daffa",
+    "Age" : 18,
+    "Gender" : "Male",
+    "Married" : false,
+    "Address" : "Jl.Willis No.389 RT 01/03 Gemeksekti,Kebumen,Jawa Tengah",
+    "Hobbies" : ["Sport,Coding,Design Logo"],
+    "List_School" :{
+      "SD NEGERI 2 Kebumen" : ["2007-2013"],
+      "SMP NEGERI 7 KEBUMEN" : ["2013-2016"],
+      "SMK NEGERI 2 KEBUMEN" : ["2016-2019"]
+    },
+    "Skill" :{
+      "Coding" :{
+        "HTML" : "Beginner",
+        "CSS" : "Beginner",
+        "JS" : "Beginner"
+      },
+      "Desain": {
+        "Photoshop" : "Advanced",
+        "Illustrator" : "Advanced",
+        "Autocad Autodesk" : "Advanced",
+        "Sketchup 3D" : "Advanced"
+      },
+    },
+    "Interest in coding" : true,
+  }
+}
