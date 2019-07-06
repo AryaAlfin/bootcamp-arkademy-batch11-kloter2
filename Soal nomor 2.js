@@ -58,14 +58,7 @@ function is_numberphone_valid(phone) {
 }
 
 //Email
-function is_email_valid()
- {
- var x=document.forms["email"]["emailUser"].value;
- var atpos=x.indexOf("@");
- var dotpos=x.lastIndexOf(".");
- if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
- {
- alert("Isi Email dengan Benar");
- }
- }
-
+function is_email_valid(email) {
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+return re.test(String(email).toLowerCase());
+}
